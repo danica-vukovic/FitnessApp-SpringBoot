@@ -1,0 +1,137 @@
+{
+  "rules": [
+    {
+      "methods": ["POST"],
+      "pattern": "/comments",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/activity-log",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/programs",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/messages",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/messages/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/advisors",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["DELETE"],
+      "pattern": "/programs/*",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/users",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/users/profile",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["PUT"],
+      "pattern": "/users/*",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["PUT"],
+      "pattern": "/users/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/users/*",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/users/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/users/***",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "user-has-categories",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/user-has-categories/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["DELETE"],
+      "pattern": "/user-has-categories/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "user-has-programs",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "program-has-attributes",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    }
+  ]
+}
